@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(64, 63, 63);
+    
+}
+textarea{
+    font-size: larger;
+    background-color: rgb(193, 191, 191);
+}
+
+#output-div{
+   
+    min-height: 51vh;
+    /* margin-left: 5vh;
+    margin-right: 5vh; */
+    border: solid black 3px;
+    background-color: rgb(193, 191, 191);
+    font-size: 1.8em;
+    -webkit-box-shadow: -9px 10px 22px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px 10px 22px -3px rgba(0,0,0,0.75);
+box-shadow: -9px 10px 22px -3px rgba(0,0,0,0.75);
+    
+}
+h2{
+    color: white;
+}
+#display{
+    display: flex;
+    justify-content: space-around;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+}
